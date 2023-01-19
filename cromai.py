@@ -1,4 +1,4 @@
-import os
+import os, time
 
 pid = str(os.getpid())
 
@@ -8,5 +8,6 @@ f.close()
 
 for i in range(3):
     print('Im alive')
+    time.sleep(3)
 
 print('Now im dead')
