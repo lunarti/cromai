@@ -7,7 +7,7 @@ while true; do
         echo "Its Alive!"
     else
         echo "Its dead!"
-        python3 cromai.py
+        python3 cromai.py &
 fi
 sleep 1
 done
