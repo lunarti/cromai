@@ -1,0 +1,106 @@
+<mxfile host="65bd71144e">
+    <diagram id="_zzuYE5ZCQLS4duGeWL-" name="Page-1">
+        <mxGraphModel dx="1356" dy="1047" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="26" value="Shell Script" style="swimlane;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;container=0;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="55" y="50" width="740" height="490" as="geometry">
+                        <mxRectangle width="100" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="26" source="31" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Início" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;" vertex="1" parent="26">
+                    <mxGeometry x="330.36" y="40" width="65" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Consulta Pid no Arquivo" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="26">
+                    <mxGeometry x="289.67391304347825" y="130" width="146.37681159420288" height="62.85714285714286" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Consulta Processos do Sistema" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="26">
+                    <mxGeometry x="289.67391304347825" y="240" width="146.37681159420288" height="62.85714285714286" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="26" source="4" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Existe nos processos &lt;br&gt;do Sistema &lt;br style=&quot;font-size: 11px;&quot;&gt;o Pid fornecido?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;container=0;" vertex="1" parent="26">
+                    <mxGeometry x="282.3550724637681" y="342.1428571428571" width="161.0144927536232" height="117.85714285714285" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="26" source="8" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Its Dead" style="shape=display;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;container=0;" vertex="1" parent="26">
+                    <mxGeometry x="505.5797101449275" y="373.57142857142856" width="102.46376811594203" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="26" source="9" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="26" source="15" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="176.231884057971" y="161.42857142857144"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="Its Alive" style="shape=display;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;container=0;" vertex="1" parent="26">
+                    <mxGeometry x="125" y="373.57142857142856" width="102.46376811594203" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="26" source="9" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Sim&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=11;container=0;" vertex="1" parent="26">
+                    <mxGeometry x="234.7826086956522" y="373.57142857142856" width="43.913043478260875" height="23.57142857142857" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="26" source="22" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="556.8115942028985" y="161.42857142857144"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="Executa Python Script" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="26">
+                    <mxGeometry x="483.62318840579707" y="240" width="146.37681159420288" height="62.85714285714286" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="26" source="14" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Não" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=11;container=0;" vertex="1" parent="26">
+                    <mxGeometry x="454.3478260869565" y="373.57142857142856" width="43.913043478260875" height="23.57142857142857" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Python Script" style="swimlane;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;container=0;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+                    <mxGeometry x="55" y="560" width="740" height="480" as="geometry">
+                        <mxRectangle width="100" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=50.289855072463766;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="33" source="56" target="78">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="Escreve 'Im Alive'&lt;br&gt;3x" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;isLoopStandard=1;strokeWidth=1;fontSize=11;" vertex="1" parent="33">
+                    <mxGeometry x="317.69" y="310" width="105" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Escreve o pid no arquivo" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="33">
+                    <mxGeometry x="297.00391304347824" y="220" width="146.37681159420288" height="62.85714285714286" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="33" source="37" target="56">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Consulta o próprio pid" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="33">
+                    <mxGeometry x="297.00391304347824" y="130" width="146.37681159420288" height="62.85714285714286" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="33" source="36" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Início" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;container=0;" vertex="1" parent="33">
+                    <mxGeometry x="337.69" y="40" width="65" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="33" source="35" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="Now Im Dead" style="shape=display;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=11;container=0;" vertex="1" parent="33">
+                    <mxGeometry x="318.9597101449275" y="410.0014285714285" width="102.46376811594203" height="55" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
